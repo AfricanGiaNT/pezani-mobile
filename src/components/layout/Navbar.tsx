@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Search, User, Home, Building2, PlusCircle } from 'lucide-react';
 import { Button } from '@/components/common';
-import { useAuth } from '@/hooks/useAuth';
+import { useAuth } from '@contexts/AuthContext';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

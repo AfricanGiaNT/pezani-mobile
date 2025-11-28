@@ -22,7 +22,7 @@ import Stack from '@/components/property/Stack';
 import ReportModal from '@/components/common/ReportModal';
 import ViewingRequestModal from '@/components/property/ViewingRequestModal';
 import { supabase } from '@/lib/supabase';
-import { useAuth } from '@/hooks/useAuth';
+import { useAuth } from '@contexts/AuthContext';
 import { formatPrice } from '@/utils/formatting';
 
 interface PropertyImage {

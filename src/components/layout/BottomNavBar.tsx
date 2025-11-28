@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Home, Search, User } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { useAuth } from '@/hooks/useAuth';
+import { useAuth } from '@contexts/AuthContext';
 
 const BottomNavBar = () => {
   const location = useLocation();

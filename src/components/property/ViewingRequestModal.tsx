@@ -8,7 +8,7 @@ import Modal from '@/components/common/Modal';
 import Input from '@/components/common/Input';
 import Button from '@/components/common/Button';
 import { supabase } from '@/lib/supabase';
-import { useAuth } from '@/hooks/useAuth';
+import { useAuth } from '@contexts/AuthContext';
 import { formatPrice } from '@/utils/formatting';
 
 interface Property {

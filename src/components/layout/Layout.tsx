@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import BottomNavBar from './BottomNavBar';
-import { useAuth } from '@/hooks/useAuth';
+import { useAuth } from '@contexts/AuthContext';
 
 interface LayoutProps {
   children: ReactNode;

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { supabase } from '@/lib/supabase'
-import { useAuth } from '@/hooks/useAuth'
+import { useAuth } from '@contexts/AuthContext'
 import { Button } from '@/components/common'
 import { toast } from 'react-hot-toast'
 import { useNavigate } from 'react-router-dom'

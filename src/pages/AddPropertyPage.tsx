@@ -9,7 +9,7 @@ import ImageUpload from '@/components/property/ImageUpload';
 import { propertySchema, PropertyFormData, malawiLocations, propertyTypes, availableAmenities } from '@/utils/validation';
 import { slideLeft, slideRight } from '@/utils/animations';
 import { supabase } from '@/lib/supabase';
-import { useAuth } from '@/hooks/useAuth';
+import { useAuth } from '@contexts/AuthContext';
 
 const AddPropertyPage = () => {
   const [currentStep, setCurrentStep] = useState(1);
