@@ -1,0 +1,17 @@
+export { default as HomePage } from './HomePage';
+export { default as BrowsePage } from './BrowsePage';
+export { default as PropertyDetailPage } from './PropertyDetailPage';
+export { LoginPage } from './LoginPage';
+export { SignUpPage } from './SignUpPage';
+export { default as DashboardPage } from './DashboardPage';
+export { default as ProfilePage } from './ProfilePage';
+export { default as DesignSystemPage } from './DesignSystemPage';
+export { default as AddPropertyPage } from './AddPropertyPage';
+export { default as EditPropertyPage } from './EditPropertyPage';
+export { default as AgentPendingPage } from './AgentPendingPage';
+export { default as AgentApprovalPage } from './admin/AgentApprovalPage';
+export { default as AdminDashboard } from './admin/AdminDashboard';
+export { default as ReportsPage } from './admin/ReportsPage';
+export { default as PaymentSuccessPage } from './PaymentSuccessPage';
+export { default as PaymentFailedPage } from './PaymentFailedPage';
+export { default as SavedPropertiesPage } from './SavedPropertiesPage';
